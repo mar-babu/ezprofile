@@ -17,7 +17,7 @@ const config = {
     linkedin: 'md-abdur-rahman-368330139',
     twitter: 'MarAbdur',
     mastodon: '',
-    facebook: 'mar.babu1'',
+    facebook: 'mar.babu1',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
@@ -77,7 +77,7 @@ const config = {
       companyLink: 'https://luminouslabsbd.com',
     },
   ],
-  /* certifications: [
+ certifications: [
  {
       name: 'Mastering Vue.js',
       body: 'Certiﬁcation from ostad.com (Hasin Hayder)',
@@ -108,7 +108,7 @@ const config = {
       year: 'September 2020',
       link: 'https://www.coursera.org/account/accomplishments/certificate/FGPXJNWTEUV7'
     },
-  ], */
+  ],
   education: [
       institution: 'Bangladesh University of Business and Technology',
       degree: 'Bachelor of Science',
