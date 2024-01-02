@@ -110,23 +110,24 @@ const config = {
     },
   ],
   education: [
+    {
       institution: 'Bangladesh University of Business and Technology',
       degree: 'Bachelor of Science',
       from: '2015',
       to: '2019'
     },
-    {
+    /*{
       institution: 'Major General Mahmudul Hasan Ideal College',
       degree: 'Higher Secondary Certificate (HSC)',
       from: '2012',
       to: '2014',
     },
-    // {
-    //     institution: 'Dighulia Shahid Mizanur Rahman High School',
-    //     degree: 'Secondary School Certificate (SSC)',
-    //     from: '2006',
-    //     to: '2011'
-    // }
+    {
+        institution: 'Dighulia Shahid Mizanur Rahman High School',
+        degree: 'Secondary School Certificate (SSC)',
+        from: '2006',
+        to: '2011'
+    }*/
   ],
 
   // To hide the `My Projects` section, keep it empty.
