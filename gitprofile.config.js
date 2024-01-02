@@ -165,7 +165,7 @@ const config = {
       description:
         'Vite-Vannila Weather App!',
       imageUrl: 'https://drive.google.com/file/d/1OLa7d5Vr5idG5TtPRjkqCfgxf4bUQcj_/view?usp=sharing',
-      link: 'https://www.loom.com/share/411b58d23ff941cba65db82680a8d3b1',
+      link: 'https://vite-vannilajs-weather-app.netlify.app',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
