@@ -13,7 +13,7 @@ const config = {
         'ant_food', 'food-app', 'ant-food'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
   },
   social: {
-    linkedin: 'md-abdur-rahman-368330139'',
+    linkedin: 'md-abdur-rahman-368330139',
     twitter: 'MarAbdur',
     mastodon: 'arifszn@mastodon.social',
     facebook: 'mar.babu1',
