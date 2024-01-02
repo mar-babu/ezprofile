@@ -222,6 +222,6 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: ``,
-}}
+};
 
 export default config;
