@@ -1,6 +1,9 @@
 <br/>
 
 <p align="center">
+  <a href="http://mar-babu.github.io/ezprofile" target="_blank">
+
+[//]: # (    <img src="https://arifszn.github.io/assets/img/hosted/ezprofile/logo.png" alt="ezProfile" title="ezProfile" width="80">)
   <img src="https://user-images.githubusercontent.com/45073703/177566625-9b84e793-4559-4475-ba54-8d3d5f4123d4.png" width="35%">
 
   <h4 align="center">Easy to use automatic portfolio builder for every GitHub user!</h4>
@@ -21,8 +24,8 @@
     <a href="https://github.com/arifszn/gitprofile/network/members">
       <img src="https://img.shields.io/github/forks/arifszn/gitprofile"/>
     </a>
-    <a href="https://github.com/arifszn/gitprofile/commits/main">
-      <img src="https://img.shields.io/github/last-commit/arifszn/gitprofile/main"/>
+    <a href="https://github.com/arifszn/gitprofile/blob/main/package-lock.json">
+      <img src="https://img.shields.io/snyk/vulnerabilities/github/arifszn/gitprofile"/>
     </a>
     <a href="https://github.com/arifszn/gitprofile/blob/main/CONTRIBUTING.md">
       <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
@@ -39,7 +42,7 @@
   </p>
 
   <p align="center">
-    <a href="https://arifszn.github.io/gitprofile">View Demo</a>
+    <a href="https://mar-babu.github.io/ezprofile">View Demo</a>
     ·
     <a href="https://github.com/arifszn/gitprofile/issues">Report Bug</a>
     ·
@@ -47,13 +50,25 @@
   </p>
 </p>
 
-<p align="center">
-  <a href="https://arifszn.github.io/gitprofile">
-    <img src="https://arifszn.netlify.app/assets/img/hosted/gitprofile/preview.gif" alt="Preview" width="60%"/>
-  </a>
-  <br/>
-  <a href="#arifszn"><img src="https://arifszn.netlify.app/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>
-</p>
+[//]: # (<p align="center">)
+
+[//]: # (  <a href="https://mar-babu.github.io/ezprofile">)
+
+[//]: # (    <img src="https://mar-babu.github.io/assets/img/hosted/ezprofile/preview.gif" alt="Preview" width="60%"/>)
+
+[//]: # (  </a>)
+
+[//]: # (  <br/>)
+
+[//]: # (  <a href="#arifszn"><img src="https://mar-babu.github.io/assets/img/drop-shadow.png" width="50%" alt="Shadow"/></a>)
+
+[//]: # (</p>)
+
+[//]: # (<h1 align="center">ezProfile</h1>)
+
+[//]: # (<p align="center">A modern, responsive and customizable portfolio builder for Developers!</p>)
+
+[//]: # (<p align="center">https://mar-babu.github.io/ezprofile</p>)
 
 **GitProfile** is an easy to use portfolio builder where you can create a portfolio page automatically by just providing your GitHub username. It is built using React.js on top of Vite. But it's not necessary to have knowledge on these to get you started. You can make your own copy with zero coding experience.
 
@@ -79,19 +94,29 @@ To view a live example, **[click here](https://arifszn.github.io/gitprofile)**.
 Or try it **[online](https://stackblitz.com/edit/gitprofile)**.
 
 <p align="center">
-  <img src="https://arifszn.netlify.app/assets/img/hosted/gitprofile/themes.png" alt="Themes">
+    <a href="https://mar-babu.github.io/ezprofile">
+        <img src="https://arifszn.github.io/assets/img/hosted/gitprofile/preview.gif" width="60%" alt="Preview"/>
+    </a>
+    <br/>
+    <a href="#arifszn"><img src="https://arifszn.github.io/assets/img/drop-shadow.png" width="60%" alt="Shadow"/></a>
+  <img src="https://arifszn.github.io/assets/img/hosted/gitprofile/themes.png" alt="Themes">
 </p>
 
-## 🎉 Thank you for the 800 ★
+## 🎉 Thank you for the 500 ★
 
-<p>
-  <a href="https://arifszn.github.io/gitprofile">
-    <img src="https://github.com/arifszn/gitprofile/assets/45073703/b3d34d17-cf55-4c74-bf44-3196b1f0ac66" alt="Thank You" width="50%"/>
-  </a>
-</p>
+[//]: # (<p>)
+
+[//]: # (  <a href="https://arifszn.github.io/gitprofile">)
+
+[//]: # (    <img src="https://user-images.githubusercontent.com/45073703/202119579-eae272bd-ed39-434d-9361-df25308e0691.gif" alt="Thank You" width="50%"/>)
+
+[//]: # (  </a>)
+
+[//]: # (</p>)
 
 ## 🛠 Installation & Setup
 
+To view a live example, **[click here](https://mar-babu.github.io/ezprofile)**.
 There are three ways to use **GitProfile**. Use any.
 
 - [Forking this repo _(recommended)_](#forking-this-repo)
@@ -100,21 +125,21 @@ There are three ways to use **GitProfile**. Use any.
 
 ### Forking this repo
 
-These instructions will get you a copy of the project and deploy your portfolio online using GitHub Pages!
+These instructions will get you a copy of the project and deploy your portfolio online!
 
 - **Fork repo:** Click [here](https://github.com/arifszn/gitprofile/fork) to fork the repo so you have your own project to customize. A "fork" is a copy of a repository.
 - **Rename repo:**
   - If you want to host your portfolio at `https://<USERNAME>.github.io`, rename your forked repository to `username.github.io` in GitHub, where `username` is your GitHub username (or organization name).
-  - If you want to host your portfolio at `https://<USERNAME>.github.io/<REPO_NAME>` (e.g. `https://<USERNAME>.github.io/portfolio`), rename your forked repository to `<REPO_NAME>` (e.g. `portfolio`) in GitHub.
+  - If you want to host your portfolio at `https://<USERNAME>.github.io/<REPO>` (e.g. `https://<USERNAME>.github.io/portfolio`), rename your forked repository to `<REPO>` (e.g. `portfolio`) in GitHub.
 - **Enable workflows:** Go to your repo's **Actions** tab and enable workflows.
 
-  ![Workflows](https://arifszn.netlify.app/assets/img/hosted/gitprofile/workflows.png)
+  ![Workflows](https://arifszn.github.io/assets/img/hosted/gitprofile/workflows.png)
 
 - **Base Value:** Open `vite.config.js`, and change `base`'s value.
 
   - If you are deploying to `https://<USERNAME>.github.io`, set `base` to `'/'`.
 
-  - If you are deploying to `https://<USERNAME>.github.io/<REPO_NAME>` (e.g. `https://<USERNAME>.github.io/portfolio`), then set `base` to `'/<REPO_NAME>/'` (e.g. `'/portfolio/'`).
+  - If you are deploying to `https://<USERNAME>.github.io/<REPO>` (e.g. `https://<USERNAME>.github.io/portfolio`), then set `base` to `'/<REPO>/'` (e.g. `'/portfolio/'`).
 
   ```js
   // vite.config.js
@@ -130,7 +155,7 @@ Your portfolio website will be live shortly. Any time you commit a change to the
 
 If you wish to add a custom domain, no CNAME file is required. Just add it to your repo's **Settings** ➜ **Pages** ➜ **Custom domain**.
 
-As this is a Vite project, you can also host your website to Netlify, Vercel, Heroku, or other popular services. Please refer to this [doc](https://vitejs.dev/guide/static-deploy.html) for a detailed deployment guide to other services. Also, if you are not deploying to GitHub pages, `base:` might need to be deleted from `vite.config.js`.
+As this is a Vite project, you can also host your website to Netlify, Vercel, Heroku, or other popular services. Please refer to this [doc](https://vitejs.dev/guide/static-deploy.html) for a detailed deployment guide to other services.
 
 ### Setting up locally
 
@@ -157,9 +182,7 @@ As this is a Vite project, you can also host your website to Netlify, Vercel, He
 
 ### Installing as package
 
-You can also use **GitProfile** by installing as an NPM package.
-
-First Install **GitProfile** via <a href="https://www.npmjs.com/package/@arifszn/gitprofile">NPM</a>.
+You can also use **GitProfile** by installing as an NPM package. First Install **GitProfile** via <a href="https://www.npmjs.com/package/@arifszn/gitprofile">NPM</a>.
 
 ```sh
 npm install @arifszn/gitprofile
@@ -219,7 +242,6 @@ const config = {
     mastodon: '',
     facebook: '',
     instagram: '',
-    youtube: '',
     dribbble: '',
     behance: '',
     medium: '',
@@ -387,7 +409,7 @@ const config = {
 ```
 
 <p align="center">
-  <img src="https://arifszn.netlify.app/assets/img/hosted/gitprofile/theme-dropdown.png" alt="Theme Dropdown" width="50%">
+  <img src="https://arifszn.github.io/assets/img/hosted/gitprofile/theme-dropdown.png" alt="Theme Dropdown" width="50%">
 </p>
 
 You can create your own custom theme by modifying these values. Theme `procyon` will have the custom styles.
@@ -458,7 +480,7 @@ Your avatar and bio will be fetched from GitHub automatically.
 
 ### Social Links
 
-You can link your social media services you're using, including LinkedIn, Twitter, Mastodon, Facebook, Instagram, YouTube, Dribbble, Behance, Medium, dev, Stack Overflow, Skype, Telegram, personal website, phone and email.
+You can link your social media services you're using, including LinkedIn, Twitter, Mastodon, Facebook, Instagram, Dribbble, Behance, Medium, dev, Stack Overflow, Skype, Telegram, personal website, phone and email.
 
 ```js
 // gitprofile.config.js
@@ -470,7 +492,6 @@ const config = {
     mastodon: 'arifszn@mastodon.social',
     facebook: '',
     instagram: '',
-    youtube: '',
     dribbble: '',
     behance: '',
     medium: '',
@@ -633,7 +654,7 @@ const config = {
 };
 ```
 
-![Blog](https://arifszn.netlify.app/assets/img/hosted/gitprofile/blog.png)
+![Blog](https://arifszn.github.io/assets/img/hosted/gitprofile/blog.png)
 
 The posts are fetched by [blog.js](https://github.com/arifszn/blog.js).
 
