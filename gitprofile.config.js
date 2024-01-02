@@ -2,89 +2,131 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'mar-babu', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
-    },
+      projects: ['marahman', 'Social-Complainer', 'BUBT-photography-club', 'Child-Day-care ', 'Edulearn-laravel ',
+        'Vandely-Design', 'cv-with-html-css-', 'TestLab ', 'Racer-Ecommerce ', 'O-Cus', 'my_react_app',
+        'Created-React-FRESH-App', 'PHP-Mastering', 'e-shop', 'Javascript-basics_Rexercises', 'acv',
+        'ant_food', 'food-app', 'ant-food'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
+    linkedin: 'md-abdur-rahman-368330139'',
+    twitter: 'MarAbdur',
     mastodon: 'arifszn@mastodon.social',
-    facebook: '',
+    facebook: 'mar.babu1',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
+    medium: '',
+    dev: 'marbabu',
+    stackoverflow: '7699819/abdur-rahman', // example: '1/jeff-atwood'
+    skype: 'mar_babu\n',
     telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://marbabu.wixsite.com/mysite',
+    phone: '+8801681195152',
+    email: 'ar_cse@yahoo.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
     'Laravel',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Vue.Js',
+    'Alpine.Js',
     'MySQL',
-    'PostgreSQL',
     'Git',
-    'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
+    'LESS',
+    'SASS',
+    'Html5',
+    'Jquery',
+    'Ajax',
+    'Bootstrap',
+    'Livewire',
+    'React.js',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Xgenious',
+      position: 'Software Engineer',
+      from: 'October 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://xgenious.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Tappware Solutions Limited',
+      position: 'Software Engineer',
+      from: 'March 2021',
+      to: 'September 2022',
+      companyLink: 'http://www.tappware.com',
+    },
+    {
+      company: 'Luminouslabs',
+      position: 'Software Engineer',
+      from: 'October 2020',
+      to: 'February 2021',
+      companyLink: 'https://luminouslabsbd.com',
     },
   ],
-  /* certifications: [
+  certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Mastering Vue.js',
+      body: 'Certiﬁcation from ostad.com (Hasin Hayder)',
+      year: 'December 2023',
+      link: 'https://ostad.app/share/certificate/c7693-md.-abdur-rahman'
     },
-  ], */
+    {
+      name: 'SQL (Basic)',
+      body: 'Certiﬁcation from hackerrank.com',
+      year: 'March 2022',
+      link: 'https://www.hackerrank.com/certificates/9fc783f086a5'
+    },
+    {
+      name: 'The Ultimate JavaScript Mastery Series',
+      body: 'Certiﬁcation fromcodewithmosh.com',
+      year: 'February 2021',
+      link: '#'
+    },
+    {
+      name: 'Programming Foundations with JavaScript, HTML and CSS',
+      body: 'Certiﬁcation from coursera.org',
+      year: 'July 2020',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/2RPR5KUJWYHD'
+    },
+    {
+      name: 'Front-End Web UI Frameworks and Tools',
+      body: 'Certiﬁcation from coursera.org',
+      year: 'September 2020',
+      link: 'https://www.coursera.org/account/accomplishments/certificate/FGPXJNWTEUV7'
+    },
+  ],
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'Bangladesh University of Business and Technology',
+      degree: 'Bachelor of Science',
       from: '2015',
-      to: '2019',
+      to: '2019'
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
+      institution: 'Major General Mahmudul Hasan Ideal College',
+      degree: 'Higher Secondary Certificate (HSC)',
       from: '2012',
       to: '2014',
     },
+    // {
+    //     institution: 'Dighulia Shahid Mizanur Rahman High School',
+    //     degree: 'Secondary School Certificate (SSC)',
+    //     from: '2006',
+    //     to: '2011'
+    // }
   ],
 
   // To hide the `My Projects` section, keep it empty.
@@ -107,15 +149,15 @@ const config = {
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
+    username: 'marbabu', // to hide blog section, keep it empty
+    limit: , // How many posts to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '3811149',
     snippetVersion: 6,
   },
   themeConfig: {
