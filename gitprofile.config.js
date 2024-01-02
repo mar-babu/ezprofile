@@ -121,12 +121,12 @@ const config = {
       from: '2012',
       to: '2014',
     },
-    /*{
-        institution: 'Dighulia Shahid Mizanur Rahman High School',
-        degree: 'Secondary School Certificate (SSC)',
-        from: '2006',
-        to: '2011'
-    }*/
+    // {
+    //     institution: 'Dighulia Shahid Mizanur Rahman High School',
+    //     degree: 'Secondary School Certificate (SSC)',
+    //     from: '2006',
+    //     to: '2011'
+    // }
   ],
 
   // To hide the `My Projects` section, keep it empty.
