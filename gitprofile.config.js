@@ -22,7 +22,7 @@ const config = {
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
+    medium: '',
     dev: 'marbabu',
     stackoverflow: '7699819/abdur-rahman', // example: '1/jeff-atwood'
     skype: 'mar_babu',
