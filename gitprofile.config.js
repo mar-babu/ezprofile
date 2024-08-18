@@ -10,7 +10,7 @@ const config = {
       projects: ['marahman', 'Social-Complainer', 'BUBT-photography-club', 'Child-Day-care ', 'Edulearn-laravel ',
         'cv-with-html-css-', 'TestLab ', 'Racer-Ecommerce ', 'O-Cus', 'my_react_app',
         'Created-React-FRESH-App', 'PHP-Mastering', 'e-shop', 'Javascript-basics_Rexercises', 'acv',
-        'ant_food', 'food-app', 'ant-food', 'tiny-cms', 'The-News-Day', 'laravel-8-fortify-bootstrap-scaffold', ''], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+        'ant_food', 'food-app', 'ant-food', 'tiny-cms', 'The-News-Day', 'laravel-8-fortify-bootstrap-scaffold'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -48,7 +48,7 @@ const config = {
     'OOP',
     'Data Structure',
     'Algorithm',
-    'Javascript'
+    'Javascript',
     'MySQL',
     'Git',
     'CSS',
