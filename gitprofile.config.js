@@ -164,21 +164,21 @@ const config = {
     {
       title: 'Xg License Server',
       description:
-        'License system and automatic update features the xgenious CMS. Tech Stack: Laravel, Php, Mysql, Javascript, Jquery, Ajax, Html5, Css3, , Bootstrap 5',
+        'License system and automatic update features the xgenious CMS. Tech Stack: Laravel, Php, Mysql, Javascript, Jquery, Ajax, Html5, Css3, Bootstrap 5',
       imageUrl: 'https://drive.google.com/file/d/1ncpLiqCHFNgP8OAD4eLEaZe3rxsdr_D-/view?usp=sharing',
       link: 'http://license.xgenious.com',
     },
     {
       title: 'Ditopic',
       description:
-        'Sass Based Multitenancy with Frontend pagebuilder - CMS. Tech Stack: Multitenant, Laravel, Php, Json, Mysql, Javascript, Jquery, Ajax, Html5, Css3, , Bootstrap 5',
+        'Sass Based Multitenancy with Frontend pagebuilder - CMS. Tech Stack: Multitenant, Laravel, Php, Json, Mysql, Javascript, Jquery, Ajax, Html5, Css3, Bootstrap 5',
       imageUrl: 'https://drive.google.com/file/d/1MMSr6qaBUl3AeQO3i4JZdoXQ1gIUADCs/view?usp=sharing',
       link: 'https://ditopic.store',
     },
     {
       title: 'Bst Mode',
       description:
-        'Social media site where users will upload their best photos and submit to challenges depending on the category they chose. Users will get the opportunity to “vote” on other users’ submissions, by voting, photos will gain popularity and accumulate votes so users can move up in rank(10 ranks/levels). As users move up in rank and gain votes, they will gain a variety of emblems corresponding to their rank/status. Once users reach a certain level, users will be eligible to win prizes.... and more features...! Tech Stack: Laravel, Php, Mysql, Javascript, Jquery, Ajax, Html5, Css3, Bootstrap 4',',
+        'Social media site where users will upload their best photos and submit to challenges depending on the category they chose. Users will get the opportunity to “vote” on other users’ submissions, by voting, photos will gain popularity and accumulate votes so users can move up in rank(10 ranks/levels). As users move up in rank and gain votes, they will gain a variety of emblems corresponding to their rank/status. Once users reach a certain level, users will be eligible to win prizes.... and more features...! Tech Stack: Laravel, Php, Mysql, Javascript, Jquery, Ajax, Html5, Css3, Bootstrap 4',
       imageUrl: 'https://drive.google.com/file/d/1kH1buTrMaUO3F9iqQNYkUI7hjlyDikRz/view?usp=sharing',
       link: 'https://www.loom.com/share/411b58d23ff941cba65db82680a8d3b1',
     },
