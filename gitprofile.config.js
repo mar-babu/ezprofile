@@ -6,11 +6,11 @@ const config = {
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: ['marahman', 'Social-Complainer', 'BUBT-photography-club', 'Child-Day-care ', 'Edulearn-laravel ',
-        'Vandely-Design', 'cv-with-html-css-', 'TestLab ', 'Racer-Ecommerce ', 'O-Cus', 'my_react_app',
+        'cv-with-html-css-', 'TestLab ', 'Racer-Ecommerce ', 'O-Cus', 'my_react_app',
         'Created-React-FRESH-App', 'PHP-Mastering', 'e-shop', 'Javascript-basics_Rexercises', 'acv',
-        'ant_food', 'food-app', 'ant-food'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+        'ant_food', 'food-app', 'ant-food', 'tiny-cms', 'The-News-Day', 'laravel-8-fortify-bootstrap-scaffold', ''], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -38,9 +38,17 @@ const config = {
   skills: [
     'PHP',
     'Laravel',
-    'JavaScript',
+    'Next.js',
+    'TypeScript',
+    'React.js',
     'Vue.Js',
     'Alpine.Js',
+    'API',
+    'Cloud',
+    'OOP',
+    'Data Structure',
+    'Algorithm',
+    'Javascript'
     'MySQL',
     'Git',
     'CSS',
@@ -48,10 +56,10 @@ const config = {
     'SASS',
     'Html5',
     'Jquery',
+    'JSON',
     'Ajax',
     'Bootstrap',
     'Livewire',
-    'React.js',
     'Tailwind',
   ],
   experiences: [
@@ -132,31 +140,45 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-     {
+    {
+      title: 'Taskip',
+      description:
+        'Managing Client is hard? Not with Taskip! One Stop Solution for Client Management. Tech Stack: Laravel, Next.js, React.js, Typescript, Zustand, Zod, Tailwind CSS, MySQL, Php, CI/CD',
+      imageUrl: 'https://taskip.net/wp-content/uploads/2024/05/Rectangle-2.png',
+      link: 'https://taskip.net',
+    },
+    {
+      title: 'Web Scrapping API',
+      description:
+        'Usually this api app is developed for serve 20+ shopping sites data for creating a seamless, innovative, and engaging app that encapsulates the essence of Apps mission to provide a world of products to customers. Tech Stack: Express.js, Node.js, Puppeteer, Javascript',
+      imageUrl: 'https://drive.google.com/file/d/1ZgvY9ZdRFkS_wd_SJznVuzzQUgQHP_FN/view?usp=drive_link',
+      link: '#',
+    },
+    {
       title: 'Xgapiclient',
       description:
-        'This package help to update xgenious products from user dashbaord by just click.',
+        'This package help to update xgenious products from user dashbaord by just click. Tech Stack: Php, Laravel Package Tools',
       imageUrl: 'https://drive.google.com/file/d/1hBszV-_vDG8_1TPpuaKteT4nRevFgRRe/view?usp=sharing',
       link: 'https://packagist.org/packages/xgenious/xgapiclient',
     },
     {
       title: 'Xg License Server',
       description:
-        'License system and automatic update features the xgenious CMS',
+        'License system and automatic update features the xgenious CMS. Tech Stack: Laravel, Php, Mysql, Javascript, Jquery, Ajax, Html5, Css3, , Bootstrap 5',
       imageUrl: 'https://drive.google.com/file/d/1ncpLiqCHFNgP8OAD4eLEaZe3rxsdr_D-/view?usp=sharing',
       link: 'http://license.xgenious.com',
     },
     {
       title: 'Ditopic',
       description:
-        'Sass Based Multitenancy with Frontend pagebuilder - CMS',
+        'Sass Based Multitenancy with Frontend pagebuilder - CMS. Tech Stack: Multitenant, Laravel, Php, Json, Mysql, Javascript, Jquery, Ajax, Html5, Css3, , Bootstrap 5',
       imageUrl: 'https://drive.google.com/file/d/1MMSr6qaBUl3AeQO3i4JZdoXQ1gIUADCs/view?usp=sharing',
       link: 'https://ditopic.store',
     },
     {
       title: 'Bst Mode',
       description:
-        'Social media site where users will upload their best photos and submit to challenges depending on the category they chose. Users will get the opportunity to “vote” on other users’ submissions, by voting, photos will gain popularity and accumulate votes so users can move up in rank(10 ranks/levels). As users move up in rank and gain votes, they will gain a variety of emblems corresponding to their rank/status. Once users reach a certain level, users will be eligible to win prizes.... and more features...!',
+        'Social media site where users will upload their best photos and submit to challenges depending on the category they chose. Users will get the opportunity to “vote” on other users’ submissions, by voting, photos will gain popularity and accumulate votes so users can move up in rank(10 ranks/levels). As users move up in rank and gain votes, they will gain a variety of emblems corresponding to their rank/status. Once users reach a certain level, users will be eligible to win prizes.... and more features...! Tech Stack: Laravel, Php, Mysql, Javascript, Jquery, Ajax, Html5, Css3, Bootstrap 4',',
       imageUrl: 'https://drive.google.com/file/d/1kH1buTrMaUO3F9iqQNYkUI7hjlyDikRz/view?usp=sharing',
       link: 'https://www.loom.com/share/411b58d23ff941cba65db82680a8d3b1',
     },
